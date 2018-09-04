@@ -5,13 +5,13 @@ victory_objectives
 	//**************** DWARFS ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_dwf_dwarfs;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -33,35 +33,35 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
 					total 19;
 					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
-					
+
 					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
-					
+
 					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
 					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
-					
+
 					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
 					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
 					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
-					
+
 					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
 					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
-					
+
 					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
-					
+
 					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
-					
+
 					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
 					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
-					
+
 					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
 					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
-					
+
 					//region wh_main_gianthome_mountains_kraka_drak;			// wh_main_dwf_kraka_drak
 					//region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
 					//region wh_main_gianthome_mountains_sjoktraken;			// wh_main_dwf_kraka_drak
-					
+
 					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
@@ -107,16 +107,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -127,7 +127,7 @@ victory_objectives
 			{
 				objective
 				{
-					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges	
+					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges
 					event_category Grudges;
 				}
 				objective
@@ -135,35 +135,35 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
 					total 22;
 					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
-					
+
 					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
-					
+
 					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
 					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
-					
+
 					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
 					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
 					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
-					
+
 					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
 					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
-					
+
 					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
-					
+
 					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
-					
+
 					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
 					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
-					
+
 					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
 					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
-					
+
 					region wh_main_gianthome_mountains_kraka_drak;				// wh_main_dwf_kraka_drak
 					region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
 					region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak
-					
+
 					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
@@ -222,9 +222,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -232,7 +232,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -250,9 +250,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -260,13 +260,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_dwf_dwarfs;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -292,9 +292,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -302,19 +302,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//******************************************//
 	//******************************************//
 	//**************** UNGRIM ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_dwf_karak_kadrin;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -360,26 +360,26 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 7;
 					unit wh_main_dwf_inf_slayers;
 					unit wh2_dlc10_dwf_inf_giant_slayers;
-				} 
+				}
 				objective
 				{
 					type OWN_N_UNITS;
 					total 60;
 				}
-			
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -390,7 +390,7 @@ victory_objectives
 			{
 				objective
 				{
-					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;									// Clear the book of grudges	
+					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;									// Clear the book of grudges
 					event_category Grudges;
 				}
 				objective																		// Construct the Great Slayer Shrine in Karak Kadrin
@@ -431,19 +431,19 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 7;
 					unit wh_main_dwf_inf_slayers;
 					unit wh2_dlc10_dwf_inf_giant_slayers;
-				} 
+				}
 				objective
 				{
 					type OWN_N_UNITS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -451,7 +451,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -469,9 +469,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -479,13 +479,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_dwf_karak_kadrin;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -511,29 +511,29 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-	}	
-	
+	}
+
 	//******************************************//
 	//******************************************//
 	//**************** EMPIRE ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_emp_empire;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -608,16 +608,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -692,9 +692,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -702,7 +702,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -720,9 +720,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -730,13 +730,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_emp_empire;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -762,9 +762,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -772,21 +772,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************** GREENSKINS ****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_grn_greenskins;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -856,16 +856,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -959,9 +959,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -969,7 +969,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -987,9 +987,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -997,13 +997,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_grn_greenskins;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -1029,9 +1029,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1039,21 +1039,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************ VAMPIRE COUNTS **************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_vmp_vampire_counts;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -1114,16 +1114,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -1178,9 +1178,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1188,7 +1188,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -1206,9 +1206,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1216,13 +1216,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_vmp_vampire_counts;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -1248,9 +1248,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1258,21 +1258,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************* VON CARSTEIN ***************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_vmp_schwartzhafen;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -1320,16 +1320,16 @@ victory_objectives
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -1378,9 +1378,9 @@ victory_objectives
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1388,7 +1388,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -1406,9 +1406,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1416,13 +1416,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_vmp_schwartzhafen;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -1448,9 +1448,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1458,21 +1458,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//**************** CHAOS *******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_chs_chaos;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -1491,11 +1491,14 @@ victory_objectives
 					type DESTROY_FACTION;										// Destroy the Empire and Bretonnia factions
 					faction wh_main_emp_empire;
 					faction wh_main_brt_bretonnia;
+					faction wh_main_dwf_dwarfs;
+                    faction wh_dlc05_wef_wood_elves;
+                    faction wh2_main_hef_high_elves;
 					confederation_valid;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1522,11 +1525,19 @@ victory_objectives
 					faction wh_main_emp_empire;
 					faction wh_main_brt_bretonnia;
 					faction wh_main_dwf_dwarfs;
+                    faction wh_dlc05_wef_wood_elves;
+                    faction wh2_main_hef_high_elves;
+                    faction wh_main_grn_greenskins;
+                    faction wh_main_vmp_vampire_counts;
+                    faction wh2_main_def_dark_elves;
+                    faction wh2_main_lzd_lizardmen;
+                    faction wh2_main_skv_skaven;
+                    faction wh2_dlc09_tmb_tomb_kings;
 					confederation_valid;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1534,7 +1545,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -1552,9 +1563,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1562,13 +1573,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_chs_chaos;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -1594,9 +1605,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1604,21 +1615,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//********** BEASTMEN - KHAZRAK ************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_dlc03_bst_beastmen;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -1658,16 +1669,16 @@ victory_objectives
 					type FIGHT_SET_PIECE_BATTLE;
 					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -1708,9 +1719,9 @@ victory_objectives
 					type FIGHT_SET_PIECE_BATTLE;
 					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1718,7 +1729,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -1736,9 +1747,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1746,13 +1757,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_dlc03_bst_beastmen;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -1778,9 +1789,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -1788,21 +1799,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//*************** BELEGAR ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_dwf_karak_izor;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -1816,7 +1827,7 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_dwarfs_belegar;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective
@@ -1832,35 +1843,35 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
 					total 19;
 					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
-					
+
 					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
-					
+
 					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
 					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
-					
+
 					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
 					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
 					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
-					
+
 					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
 					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
-					
+
 					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
-					
+
 					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
-					
+
 					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
 					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
-					
+
 					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
 					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
-					
+
 					//region wh_main_gianthome_mountains_kraka_drak;			// wh_main_dwf_kraka_drak
 					//region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
 					//region wh_main_gianthome_mountains_sjoktraken;			// wh_main_dwf_kraka_drak
-					
+
 					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
@@ -1893,7 +1904,7 @@ victory_objectives
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
-				}					
+				}
 				objective
 				{
 					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
@@ -1913,16 +1924,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -1936,12 +1947,12 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_dwarfs_belegar;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective
 				{
-					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges	
+					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges
 					event_category Grudges;
 				}
 				objective
@@ -1949,35 +1960,35 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
 					total 22;
 					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
-					
+
 					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
-					
+
 					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
 					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
-					
+
 					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
 					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
 					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
 					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
-					
+
 					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
 					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
-					
+
 					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
-					
+
 					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
-					
+
 					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
 					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
-					
+
 					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
 					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
-					
+
 					region wh_main_gianthome_mountains_kraka_drak;				// wh_main_dwf_kraka_drak
 					region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
-					region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak				
-					
+					region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak
+
 					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
 					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
@@ -2035,9 +2046,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2045,7 +2056,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2063,9 +2074,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2073,13 +2084,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_dwf_karak_izor;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -2105,9 +2116,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2115,21 +2126,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//*************** SKARSNIK *****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_grn_crooked_moon;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -2143,7 +2154,7 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective													// Conquer or assimilate all of the Greenskin tribes
@@ -2215,16 +2226,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -2238,7 +2249,7 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective													// Conquer or assimilate all of the Greenskin tribes
@@ -2326,9 +2337,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2336,7 +2347,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2354,9 +2365,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2364,13 +2375,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_grn_crooked_moon;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -2396,9 +2407,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2406,21 +2417,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//**************** WURRZAG *****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_grn_orcs_of_the_bloody_hand;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -2497,16 +2508,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -2600,9 +2611,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2610,7 +2621,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2628,9 +2639,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2638,13 +2649,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_grn_orcs_of_the_bloody_hand;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -2670,9 +2681,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2680,21 +2691,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//***************** ORION ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_dlc05_wef_wood_elves;
 		campaign_type sp_normal;
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -2710,22 +2721,22 @@ victory_objectives
 					total 1;
 					building_level wh_dlc05_wef_oak_of_ages_5;
 				}
-				
+
 				objective													// Complete the final battle
 				{
 					type FIGHT_SET_PIECE_BATTLE;
 					set_piece_battle wh_dlc05_qb_wef_grand_defense_of_the_oak;
 				}
-				
+
 				//
 				objective
                 {
                     type SCRIPTED;
                     script_key delay_victory;
                 }
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2733,7 +2744,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2751,9 +2762,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2761,13 +2772,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_dlc05_wef_wood_elves;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -2793,9 +2804,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2803,21 +2814,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//**************** DURTHU ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_dlc05_wef_argwylon;
 		campaign_type sp_normal;
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -2838,15 +2849,15 @@ victory_objectives
                     type SCRIPTED;
                     script_key delay_victory;
                 }
-				
+
 				objective													// Complete the final battle
 				{
 					type FIGHT_SET_PIECE_BATTLE;
 					set_piece_battle wh_dlc05_qb_wef_grand_defense_of_the_oak;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2854,7 +2865,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2872,9 +2883,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2882,13 +2893,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_dlc05_wef_argwylon;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -2914,9 +2925,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2924,21 +2935,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************** BRETONNIA *****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_brt_bretonnia;
 		campaign_type sp_normal;
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -2953,16 +2964,16 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chivalry_2000;
 				}
-				
+
 				objective // Complete the final Errantry War battle.
 				{
 					override_text mission_text_text_mis_activity_win_errantry_war;
                     type SCRIPTED;
                     script_key win_errantry_war;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2970,7 +2981,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -2988,9 +2999,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -2998,13 +3009,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_brt_bretonnia;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -3030,9 +3041,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3040,21 +3051,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************* CARCASSONNE ****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_brt_carcassonne;
 		campaign_type sp_normal;
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -3069,16 +3080,16 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chivalry_1000;
 				}
-				
+
 				objective // Complete the final Errantry War battle.
 				{
 					override_text mission_text_text_mis_activity_win_errantry_war;
                     type SCRIPTED;
                     script_key win_errantry_war;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3086,7 +3097,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -3104,9 +3115,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3114,13 +3125,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_brt_carcassonne;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -3146,9 +3157,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3156,21 +3167,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//******************************************//
 	//******************************************//
 	//************** BORDELEAUX ****************//
 	//******************************************//
 	//******************************************//
-	
+
 	//** SINGLE PLAYER **
 	victory_objective
 	{
 		faction wh_main_brt_bordeleaux;
 		campaign_type sp_normal;
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -3185,16 +3196,16 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chivalry_1000;
 				}
-				
+
 				objective // Complete the final Errantry War battle.
 				{
 					override_text mission_text_text_mis_activity_win_errantry_war;
                     type SCRIPTED;
                     script_key win_errantry_war;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3202,7 +3213,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -3220,9 +3231,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3230,13 +3241,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_main_brt_bordeleaux;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -3262,9 +3273,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3272,21 +3283,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//**************** TYRION *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_hef_eataine;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -3364,16 +3375,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -3444,9 +3455,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3454,7 +3465,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -3472,9 +3483,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3482,13 +3493,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_hef_eataine;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -3514,9 +3525,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3524,21 +3535,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//**************** TECLIS *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_hef_order_of_loremasters;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -3552,7 +3563,7 @@ victory_objectives
 					type CONTROL_N_REGIONS_INCLUDING;											// Hold 12 settlements
 					total 12;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -3563,7 +3574,7 @@ victory_objectives
 				objective
 				{
 					type DESTROY_FACTION;														// Destroy QUEEK's faction
-					faction wh2_main_skv_clan_mors;	
+					faction wh2_main_skv_clan_mors;
 					confederation_valid;
 				}
 				objective
@@ -3600,16 +3611,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -3664,9 +3675,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3674,7 +3685,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -3692,9 +3703,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3702,13 +3713,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_hef_order_of_loremasters;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -3734,9 +3745,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3744,21 +3755,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//*************** MALEKITH ****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_def_naggarond;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -3787,7 +3798,7 @@ victory_objectives
 					province wh2_main_unicorn_gate;
 					province wh2_main_phoenix_gate;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -3800,7 +3811,7 @@ victory_objectives
 					type HAVE_N_AGENTS_OF_TYPE;
 					total 3;
 					agent_subtype wh2_main_def_black_ark;
-				}	
+				}
 				objective
 				{
 					type DESTROY_FACTION;														// Destroy TYRION's and TECLIS' factions
@@ -3829,7 +3840,7 @@ victory_objectives
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
-				}					
+				}
 				objective																		// Capture 10,000 battle captives
 				{
 					type CAPTURE_X_BATTLE_CAPTIVES;
@@ -3847,16 +3858,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -3938,9 +3949,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3948,7 +3959,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -3966,9 +3977,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -3976,13 +3987,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_def_naggarond;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -4008,9 +4019,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4018,21 +4029,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//**************** MORATHI ****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_def_cult_of_pleasure;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -4061,7 +4072,7 @@ victory_objectives
 					province wh2_main_unicorn_gate;
 					province wh2_main_phoenix_gate;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -4079,7 +4090,7 @@ victory_objectives
 				{
 					type DESTROY_FACTION;														// Destroy TYRION's and TECLIS' factions
 					faction wh2_main_hef_eataine;
-					faction wh2_main_hef_order_of_loremasters;	
+					faction wh2_main_hef_order_of_loremasters;
 					confederation_valid;
 				}
 				objective
@@ -4121,16 +4132,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -4211,9 +4222,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4221,7 +4232,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -4239,9 +4250,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4249,13 +4260,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_def_cult_of_pleasure;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -4281,9 +4292,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4291,21 +4302,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//************ LORD MAZDAMUNDI ************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_lzd_hexoatl;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -4331,7 +4342,7 @@ victory_objectives
 					province wh2_main_volcanic_islands;
 					province wh2_main_headhunters_jungle;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -4380,16 +4391,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -4415,7 +4426,7 @@ victory_objectives
 					province wh2_main_volcanic_islands;
 					province wh2_main_headhunters_jungle;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -4429,7 +4440,7 @@ victory_objectives
 					faction wh2_main_lzd_hexoatl;
 					total 1;
 					building_level wh2_main_special_hexoatl_stellar_pyramids;
-				}	
+				}
 				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Rockin' All Over The World
@@ -4464,9 +4475,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4474,7 +4485,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -4492,9 +4503,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4502,13 +4513,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_lzd_hexoatl;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -4534,9 +4545,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4544,21 +4555,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//*************** KROQ-GAR ****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_lzd_last_defenders;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -4583,14 +4594,14 @@ victory_objectives
 					province wh2_main_vampire_coast;
 					province wh2_main_volcanic_islands;
 					province wh2_main_headhunters_jungle;
-				}				
+				}
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
 					faction wh2_main_lzd_last_defenders;
 					total 3;
 					building_level wh2_main_lzd_slann_1;
-				}	
+				}
 				objective
 				{
 					type DESTROY_FACTION;														// Destroy QUEEK's and SKROLK's factions
@@ -4632,16 +4643,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -4667,7 +4678,7 @@ victory_objectives
 					province wh2_main_volcanic_islands;
 					province wh2_main_headhunters_jungle;
 				}
-				
+
 				objective																		// Construct special building
 				{
 					type CONSTRUCT_N_OF_A_BUILDING;
@@ -4681,7 +4692,7 @@ victory_objectives
 					faction wh2_main_lzd_last_defenders;
 					total 1;
 					building_level wh2_main_special_itza_vaults_of_the_old_ones;
-				}	
+				}
 				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Kroqin' All Over The World
@@ -4716,9 +4727,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4726,7 +4737,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -4744,9 +4755,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4754,13 +4765,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_lzd_last_defenders;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -4786,9 +4797,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4796,21 +4807,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//************ QUEEK HEADTAKER ************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_skv_clan_mors;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -4824,7 +4835,7 @@ victory_objectives
 					type OWN_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective
@@ -4832,7 +4843,7 @@ victory_objectives
 					type AT_LEAST_X_RELIGION_IN_ALL_PROVINCES;									// At least 50% SKV corruption in all owned provinces
 					total 50;
 					religion wh2_main_religion_skaven;
-				}				
+				}
 				objective																		// At least 50% SKV corruption in named provinces
 				{
 					type AT_LEAST_X_RELIGION_IN_PROVINCES;
@@ -4841,13 +4852,13 @@ victory_objectives
 					province wh_main_the_silver_road;
 					total 50;
 					religion wh2_main_religion_skaven;
-				}	
+				}
 				objective
 				{
 					type DESTROY_FACTION;														// Destroy THORGRIM, UNGRIM and BELEGAR's factions
 					faction wh_main_dwf_karak_kadrin;
-					faction wh_main_dwf_dwarfs;	
-					faction wh_main_dwf_karak_izor;	
+					faction wh_main_dwf_dwarfs;
+					faction wh_main_dwf_karak_izor;
 					confederation_valid;
 				}
 				objective
@@ -4871,22 +4882,22 @@ victory_objectives
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
-				}					
+				}
 				objective
 				{
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
-					game_victory;					
+					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -4900,7 +4911,7 @@ victory_objectives
 					type OWN_N_REGIONS_INCLUDING;
 					total 1;
 					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
-					
+
 					region wh_main_eastern_badlands_karak_eight_peaks;
 				}
 				objective
@@ -4908,7 +4919,7 @@ victory_objectives
 					type AT_LEAST_X_RELIGION_IN_ALL_PROVINCES;											// At least 50% SKV corruption in all owned provinces
 					total 50;
 					religion wh2_main_religion_skaven;
-				}				
+				}
 				objective																		// At least 50% SKV corruption in named provinces
 				{
 					type AT_LEAST_X_RELIGION_IN_PROVINCES;
@@ -4917,7 +4928,7 @@ victory_objectives
 					province wh_main_the_silver_road;
 					total 50;
 					religion wh2_main_religion_skaven;
-				}	
+				}
 				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Rockin' All Over The World
@@ -4945,9 +4956,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4955,7 +4966,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -4973,9 +4984,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -4983,13 +4994,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_skv_clan_mors;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -5015,9 +5026,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5025,21 +5036,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//************** LORD SKROLK **************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_skv_clan_pestilens;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -5053,7 +5064,7 @@ victory_objectives
 					type AT_LEAST_X_RELIGION_IN_ALL_PROVINCES;									// At least 50% SKV corruption in all owned provinces
 					total 50;
 					religion wh2_main_religion_skaven;
-				}				
+				}
 				objective																		// At least 50% SKV corruption in named provinces
 				{
 					type AT_LEAST_X_RELIGION_IN_PROVINCES;
@@ -5062,12 +5073,12 @@ victory_objectives
 					province wh2_main_southern_great_jungle;
 					total 50;
 					religion wh2_main_religion_skaven;
-				}	
+				}
 				objective
 				{
 					type DESTROY_FACTION;														// Destroy KROQ-GAR and MAZDAMUNDI's factions
 					faction wh2_main_lzd_hexoatl;
-					faction wh2_main_lzd_last_defenders;	
+					faction wh2_main_lzd_last_defenders;
 					confederation_valid;
 				}
 				objective
@@ -5091,22 +5102,22 @@ victory_objectives
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_eataine_lothern;
-				}				
+				}
 				objective
 				{
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -5165,9 +5176,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5175,7 +5186,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -5193,9 +5204,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5203,13 +5214,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_skv_clan_pestilens;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -5235,9 +5246,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5245,21 +5256,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//**************** SETTRA *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_khemri;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -5276,10 +5287,10 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 3;
 					unit wh2_dlc09_tmb_veh_khemrian_warsphinx_0;
-				} 
+				}
 				objective
 				{
 					type OWN_N_REGIONS_INCLUDING;							// Capture the Black Pyramid of Nagash region
@@ -5299,31 +5310,31 @@ victory_objectives
 					building_level wh2_dlc09_special_pyramid_tutankhanut;
 					building_level wh2_main_special_pyramid_of_nagash_other;
 				}
-				objective	
+				objective
 				{
-					type CONTROL_N_REGIONS_FROM;							
+					type CONTROL_N_REGIONS_FROM;
 					total 8;
 					region wh2_main_land_of_the_dead_khemri;
 					region wh2_main_land_of_assassins_palace_of_the_wizard_caliph;
 					region wh2_main_great_desert_of_araby_black_tower_of_arkhan;
 					region wh2_main_coast_of_araby_al_haikk;
 					region wh2_main_ash_river_numas;
-					region wh2_main_shifting_sands_ka-sabar;		
+					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 					region wh2_main_charnel_valley_karag_orrud;
 					region wh2_main_devils_backbone_lahmia;
-					region wh2_main_crater_of_the_walking_dead_rasetra;				
+					region wh2_main_crater_of_the_walking_dead_rasetra;
 				}
-	
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -5340,12 +5351,12 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 10;
 					unit wh2_dlc09_tmb_veh_khemrian_warsphinx_0;
 					unit wh2_dlc09_tmb_mon_heirotitan_0;
 					unit wh2_dlc09_tmb_mon_necrosphinx_0;
-				} 
+				}
 				objective
 				{
 					type OWN_N_REGIONS_INCLUDING;							// Capture the Black Pyramid of Nagash region
@@ -5365,7 +5376,7 @@ victory_objectives
 					building_level wh2_dlc09_special_pyramid_tutankhanut;
 					building_level wh2_main_special_pyramid_of_nagash_other;
 				}
-				objective	
+				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Rockin' All Over The World
 					total 17;
@@ -5374,7 +5385,7 @@ victory_objectives
 					region wh2_main_great_desert_of_araby_black_tower_of_arkhan;
 					region wh2_main_coast_of_araby_al_haikk;
 					region wh2_main_ash_river_numas;
-					region wh2_main_shifting_sands_ka-sabar;		
+					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 					region wh2_main_charnel_valley_karag_orrud;
 					region wh2_main_southlands_worlds_edge_mountains_karak_zorn;
@@ -5389,11 +5400,11 @@ victory_objectives
 					region wh_main_blood_river_valley_barak_varr;
 					region wh_main_eastern_border_princes_akendorf;
 					region wh_main_western_border_princes_myrmidens;
-					region wh_main_death_pass_karak_drazh;					
+					region wh_main_death_pass_karak_drazh;
 				}
 				//
-				
-				
+
+
 				payload
 				{
 					game_victory;
@@ -5401,7 +5412,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -5419,9 +5430,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5429,13 +5440,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_khemri;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -5461,9 +5472,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5471,21 +5482,21 @@ victory_objectives
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	//*****************************************//
 	//*****************************************//
 	//**************** ARKHAN *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_followers_of_nagash;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -5502,10 +5513,10 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 5;
 					unit wh2_dlc09_tmb_cav_hexwraiths;
-				} 
+				}
 				objective
 				{
 					type OWN_N_REGIONS_INCLUDING;							// Capture the Black Pyramid of Nagash region
@@ -5526,7 +5537,7 @@ victory_objectives
 					building_level wh2_dlc09_special_pyramid_tutankhanut;
 					building_level wh2_main_special_pyramid_of_nagash_other;
 				}
-				objective	
+				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Rockin' All Over The World
 					total 8;
@@ -5535,22 +5546,22 @@ victory_objectives
 					region wh2_main_great_desert_of_araby_black_tower_of_arkhan;
 					region wh2_main_coast_of_araby_al_haikk;
 					region wh2_main_ash_river_numas;
-					region wh2_main_shifting_sands_ka-sabar;		
+					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 					region wh2_main_charnel_valley_karag_orrud;
 					region wh2_main_devils_backbone_lahmia;
-					region wh2_main_crater_of_the_walking_dead_rasetra;				
+					region wh2_main_crater_of_the_walking_dead_rasetra;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -5569,7 +5580,7 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 5;
 					unit wh2_dlc09_tmb_cav_hexwraiths;
 				}
@@ -5593,7 +5604,7 @@ victory_objectives
 					building_level wh2_dlc09_special_pyramid_tutankhanut;
 					building_level wh2_main_special_pyramid_of_nagash_other;
 				}
-				objective	
+				objective
 				{
 					type CONTROL_N_REGIONS_FROM;							// Rockin' All Over The World
 					total 17;
@@ -5602,7 +5613,7 @@ victory_objectives
 					region wh2_main_great_desert_of_araby_black_tower_of_arkhan;
 					region wh2_main_coast_of_araby_al_haikk;
 					region wh2_main_ash_river_numas;
-					region wh2_main_shifting_sands_ka-sabar;		
+					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 					region wh2_main_charnel_valley_karag_orrud;
 					region wh2_main_southlands_worlds_edge_mountains_karak_zorn;
@@ -5617,11 +5628,11 @@ victory_objectives
 					region wh_main_blood_river_valley_barak_varr;
 					region wh_main_eastern_border_princes_akendorf;
 					region wh_main_western_border_princes_myrmidens;
-					region wh_main_death_pass_karak_drazh;					
+					region wh_main_death_pass_karak_drazh;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5629,7 +5640,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -5647,9 +5658,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5657,13 +5668,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_followers_of_nagash;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -5689,9 +5700,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5699,19 +5710,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//**************** KHALIDA ****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_lybaras;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -5730,12 +5741,12 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 7;
 					unit wh2_dlc09_tmb_cav_necropolis_knights_0;
 					unit wh2_dlc09_tmb_cav_necropolis_knights_1;
 					unit wh2_dlc09_tmb_mon_sepulchral_stalkers_0;
-				} 
+				}
 				objective
 				{
 					type OWN_N_REGIONS_INCLUDING;							// Capture the Black Pyramid of Nagash region
@@ -5770,16 +5781,16 @@ victory_objectives
 					region wh2_main_coast_of_araby_al_haikk;
 					region wh_main_southern_badlands_galbaraz;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -5803,12 +5814,12 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 15;
 					unit wh2_dlc09_tmb_cav_necropolis_knights_0;
 					unit wh2_dlc09_tmb_cav_necropolis_knights_1;
 					unit wh2_dlc09_tmb_mon_sepulchral_stalkers_0;
-				} 
+				}
 				objective
 				{
 					type OWN_N_REGIONS_INCLUDING;							// Capture the Black Pyramid of Nagash region
@@ -5850,9 +5861,9 @@ victory_objectives
 					region wh2_main_vampire_coast_pox_marsh;
 					region wh2_main_vampire_coast_the_blood_swamps;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5860,7 +5871,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -5878,9 +5889,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5888,13 +5899,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_lybaras;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -5920,9 +5931,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -5930,19 +5941,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//**************** KHATEP *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_exiles_of_nehek;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -5951,7 +5962,7 @@ victory_objectives
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-				
+
 				objective
 				{
 					type DESTROY_FACTION;									// Destroy local Dark Elf factions
@@ -6001,16 +6012,16 @@ victory_objectives
 					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -6080,9 +6091,9 @@ victory_objectives
 					region wh2_main_shifting_sands_ka-sabar;
 					region wh_main_southern_badlands_galbaraz;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6090,7 +6101,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -6108,9 +6119,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6118,13 +6129,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_dlc09_tmb_exiles_of_nehek;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -6150,9 +6161,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6160,19 +6171,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//*********** TRETCH CRAVENTAIL ***********//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_dlc09_skv_clan_rictus;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -6181,7 +6192,7 @@ victory_objectives
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-				
+
 				objective																		// At least 50% SKV corruption in named provinces
 				{
 					type AT_LEAST_X_RELIGION_IN_PROVINCES;
@@ -6228,16 +6239,16 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -6246,7 +6257,7 @@ victory_objectives
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-			
+
 				objective																		// At least 50% SKV corruption in named provinces
 				{
 					type AT_LEAST_X_RELIGION_IN_PROVINCES;
@@ -6300,9 +6311,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6310,7 +6321,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -6328,9 +6339,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6338,13 +6349,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_dlc09_skv_clan_rictus;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -6370,9 +6381,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6386,13 +6397,13 @@ victory_objectives
 	//**************** NORSCA ******************//
 	//******************************************//
 	//******************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh_dlc08_nor_norsca;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -6408,7 +6419,7 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chaos_god_favour;
 				}
-				
+
 				// Defeat all of the Chaos Gods challengers
 				objective
 				{
@@ -6431,11 +6442,11 @@ victory_objectives
 					region wh_main_couronne_et_languille_couronne;
 					region wh_main_tilea_miragliano;
 					region wh_main_the_silver_road_karaz_a_karak;
-					region wh_main_reikland_altdorf;		
+					region wh_main_reikland_altdorf;
 					region wh_main_eastern_sylvania_castle_drakenhof;
 					region wh_main_death_pass_karak_drazh;
 					region wh2_main_iron_mountains_naggarond;
-					region wh2_main_eataine_lothern;					
+					region wh2_main_eataine_lothern;
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_skavenblight_skavenblight;
@@ -6454,7 +6465,7 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 7;
 					unit wh_dlc08_nor_mon_skinwolves_0;
 					unit wh_dlc08_nor_mon_skinwolves_1;
@@ -6467,16 +6478,16 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 40;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -6492,7 +6503,7 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chaos_god_favour;
 				}
-				
+
 				// Defeat all of the Chaos Gods challengers
 				objective
 				{
@@ -6517,11 +6528,11 @@ victory_objectives
 					region wh_main_couronne_et_languille_couronne;
 					region wh_main_tilea_miragliano;
 					region wh_main_the_silver_road_karaz_a_karak;
-					region wh_main_reikland_altdorf;		
+					region wh_main_reikland_altdorf;
 					region wh_main_eastern_sylvania_castle_drakenhof;
 					region wh_main_death_pass_karak_drazh;
 					region wh2_main_iron_mountains_naggarond;
-					region wh2_main_eataine_lothern;					
+					region wh2_main_eataine_lothern;
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_skavenblight_skavenblight;
@@ -6531,7 +6542,7 @@ victory_objectives
 					region wh2_main_ironfrost_glacier_ironfrost;
 					region wh2_main_aghol_wastelands_fortress_of_the_damned;
 					region wh2_main_isthmus_of_lustria_skeggi;
-					region wh_main_yn_edri_eternos_the_oak_of_ages;					
+					region wh_main_yn_edri_eternos_the_oak_of_ages;
 				}
 				objective													// Earn 20000 from raiding
 				{
@@ -6540,7 +6551,7 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 12;
 					unit wh_dlc08_nor_mon_skinwolves_0;
 					unit wh_dlc08_nor_mon_skinwolves_1;
@@ -6553,9 +6564,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6563,7 +6574,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -6581,9 +6592,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6591,13 +6602,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_dlc08_nor_norsca;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -6615,9 +6626,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6625,19 +6636,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//******************************************//
 	//******************************************//
 	//**************** WINTERTOOTH *************//
 	//******************************************//
 	//******************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh_dlc08_nor_wintertooth;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -6653,7 +6664,7 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chaos_god_favour;
 				}
-				
+
 				// Defeat all of the Chaos Gods challengers
 				objective
 				{
@@ -6676,11 +6687,11 @@ victory_objectives
 					region wh_main_couronne_et_languille_couronne;
 					region wh_main_tilea_miragliano;
 					region wh_main_the_silver_road_karaz_a_karak;
-					region wh_main_reikland_altdorf;		
+					region wh_main_reikland_altdorf;
 					region wh_main_eastern_sylvania_castle_drakenhof;
 					region wh_main_death_pass_karak_drazh;
 					region wh2_main_iron_mountains_naggarond;
-					region wh2_main_eataine_lothern;					
+					region wh2_main_eataine_lothern;
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_skavenblight_skavenblight;
@@ -6694,7 +6705,7 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 7;
 					unit wh_main_nor_mon_chaos_trolls;
 					unit wh_dlc08_nor_mon_norscan_ice_trolls_0;
@@ -6706,16 +6717,16 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 40;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -6731,7 +6742,7 @@ victory_objectives
                     type SCRIPTED;
                     script_key attain_chaos_god_favour;
 				}
-				
+
 				// Defeat all of the Chaos Gods challengers
 				objective
 				{
@@ -6756,11 +6767,11 @@ victory_objectives
 					region wh_main_couronne_et_languille_couronne;
 					region wh_main_tilea_miragliano;
 					region wh_main_the_silver_road_karaz_a_karak;
-					region wh_main_reikland_altdorf;		
+					region wh_main_reikland_altdorf;
 					region wh_main_eastern_sylvania_castle_drakenhof;
 					region wh_main_death_pass_karak_drazh;
 					region wh2_main_iron_mountains_naggarond;
-					region wh2_main_eataine_lothern;					
+					region wh2_main_eataine_lothern;
 					region wh2_main_isthmus_of_lustria_hexoatl;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_skavenblight_skavenblight;
@@ -6774,7 +6785,7 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 12;
 					unit wh_main_nor_mon_chaos_trolls;
 					unit wh_dlc08_nor_mon_norscan_ice_trolls_0;
@@ -6786,9 +6797,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6796,7 +6807,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -6814,9 +6825,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6824,13 +6835,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh_dlc08_nor_wintertooth;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -6848,9 +6859,9 @@ victory_objectives
 					type OWN_N_UNITS;
 					total 60;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -6858,19 +6869,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//************ ALITH ANAR *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_hef_nagarythe;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -6881,7 +6892,7 @@ victory_objectives
 			{
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;											// Conquer provinces 
+					type CONTROL_N_PROVINCES_INCLUDING;											// Conquer provinces
 					total 2;
 					province wh2_main_nagarythe;
 					province wh2_main_iron_mountains;
@@ -6931,20 +6942,20 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 2;
 					unit wh2_main_hef_mon_moon_dragon;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -6969,7 +6980,7 @@ victory_objectives
 					faction wh2_main_def_naggarond;
 					faction wh2_main_def_cult_of_pleasure;
 					faction wh2_main_def_har_ganeth;
-					faction wh2_main_def_bleak_holds;					
+					faction wh2_main_def_bleak_holds;
 					faction wh2_main_def_clar_karond;
 					confederation_valid;
 				}
@@ -7007,13 +7018,13 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 3;
 					unit wh2_main_hef_mon_moon_dragon;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7021,7 +7032,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -7039,9 +7050,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7049,13 +7060,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_hef_nagarythe;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -7081,9 +7092,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7091,19 +7102,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//************* ALARIELLE *****************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_hef_avelorn;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -7181,16 +7192,16 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -7270,9 +7281,9 @@ victory_objectives
 					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
 					start_pos_character 2140782858;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7280,7 +7291,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -7298,9 +7309,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7308,13 +7319,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_hef_avelorn;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -7340,9 +7351,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7350,19 +7361,19 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//*****************************************//
 	//*****************************************//
 	//**************** HELLEBRON **************//
 	//*****************************************//
 	//*****************************************//
-	
+
 	//**** SINGLE PLAYER ****//
 	victory_objective
 	{
 		faction wh2_main_def_har_ganeth;
 		campaign_type sp_normal;
-		
+
 		// SHORT CAMPAIGN
 		mission
 		{
@@ -7373,7 +7384,7 @@ victory_objectives
 			{
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;											
+					type CONTROL_N_PROVINCES_INCLUDING;
 					total 14;
 					province wh2_main_the_chill_road;
 					province wh2_main_the_road_of_skulls;
@@ -7392,9 +7403,9 @@ victory_objectives
 				}
 				objective
 				{
-					type DESTROY_FACTION;														
+					type DESTROY_FACTION;
 					faction wh2_main_hef_nagarythe;
-					faction wh2_main_hef_avelorn;	
+					faction wh2_main_hef_avelorn;
 					faction wh2_main_def_ghrond;
 					confederation_valid;
 				}
@@ -7419,7 +7430,7 @@ victory_objectives
 					region wh2_main_land_of_the_dead_khemri;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_isthmus_of_lustria_hexoatl;
-					region wh2_main_iron_mountains_naggarond;	
+					region wh2_main_iron_mountains_naggarond;
 				}
 				objective																		// Construct some special buildings
 				{
@@ -7444,22 +7455,22 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 10;
 					unit wh2_main_def_inf_witch_elves_0;
 					unit wh2_dlc10_def_inf_sisters_of_slaughter;
 					unit wh2_main_def_inf_har_ganeth_executioners_0;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
 				}
 			}
 		}
-		
+
 		// LONG CAMPAIGN
  		mission
 		{
@@ -7470,7 +7481,7 @@ victory_objectives
 			{
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;											
+					type CONTROL_N_PROVINCES_INCLUDING;
 					total 17;
 					province wh2_main_the_chill_road;
 					province wh2_main_the_road_of_skulls;
@@ -7500,9 +7511,9 @@ victory_objectives
 				}
 				objective
 				{
-					type DESTROY_FACTION;														
+					type DESTROY_FACTION;
 					faction wh2_main_hef_nagarythe;
-					faction wh2_main_hef_avelorn;	
+					faction wh2_main_hef_avelorn;
 					faction wh2_main_def_ghrond;
 					faction wh2_main_def_cult_of_pleasure;
 					faction wh_main_brt_bretonnia;
@@ -7530,7 +7541,7 @@ victory_objectives
 					region wh2_main_land_of_the_dead_khemri;
 					region wh2_main_southern_great_jungle_itza;
 					region wh2_main_isthmus_of_lustria_hexoatl;
-					region wh2_main_iron_mountains_naggarond;	
+					region wh2_main_iron_mountains_naggarond;
 					region wh2_main_titan_peaks_ancient_city_of_quintex;
 					region wh2_main_the_black_flood_temple_of_khaine;
 				}
@@ -7557,15 +7568,15 @@ victory_objectives
 				}
 				objective
 				{
-					type OWN_N_UNITS;										
+					type OWN_N_UNITS;
 					total 20;
 					unit wh2_main_def_inf_witch_elves_0;
 					unit wh2_dlc10_def_inf_sisters_of_slaughter;
 					unit wh2_main_def_inf_har_ganeth_executioners_0;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7573,7 +7584,7 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
 	victory_objective
 	{
@@ -7591,9 +7602,9 @@ victory_objectives
 					type RAZE_OR_OWN_X_SETTLEMENTS;
 					total 100;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
@@ -7601,13 +7612,13 @@ victory_objectives
 			}
 		}
 	}
-	
+
 	//** MULTIPLAYER CO-OP **
 	victory_objective
 	{
 		faction wh2_main_def_har_ganeth;
 		campaign_type mp_co_op_normal;
-		
+
 		mission
 		{
 			victory_type wh_main_victory_type_mp_coop;
@@ -7633,9 +7644,9 @@ victory_objectives
 					technology_category rom_roman_civ_top;
 					technology_category rom_roman_mil_top;
 				}
-				
+
 				//
-				
+
 				payload
 				{
 					game_victory;
